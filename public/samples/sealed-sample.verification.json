@@ -1,0 +1,10 @@
+{
+  "sha256": "6044e0116c472209df9938ea9b370b724c3c17574951688e88f5a8e54f34e247",
+  "assurance": "PADES_LT",
+  "signatures": [
+    {"name": "Sample Signer One", "subject": "O=Tenant,CN=Tenant Seal", "signedAt": "2026-10-26T09:13:41Z", "integrity": true, "chainValid": true, "timestampValid": true, "coversWholeDocument": false, "assurance": "PADES_LT"},
+    {"name": "Sample Signer Two", "subject": "O=Tenant,CN=Tenant Seal", "signedAt": "2026-10-26T09:13:41Z", "integrity": true, "chainValid": true, "timestampValid": true, "coversWholeDocument": false, "assurance": "PADES_LT"}
+  ],
+  "verifier": "com.cognivos.signing.pdf.SignatureVerifier (the public verification page's)",
+  "sealedBy": "PadesProvider, development profile, in-process time-stamp authority, self-signed seal key"
+}
